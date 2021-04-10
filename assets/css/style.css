@@ -33,6 +33,14 @@ header {
     border-bottom: 10px solid #DDAF94;
 }
 
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4F4846;
+    color: #FDF8F5;    
+  }
+
 li {
     display: inline;
     padding: 20px;
@@ -53,13 +61,20 @@ img {
     margin: 20px auto;
 }
 
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #DDAF94;
+    background-color:  #E8CEBF;
+}
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
     width: 500px;
     padding: 10px;
     border: 5px solid #DDAF94;
-    border-radius: 20px;
+    border-radius: 50px;
 }
   
 label {
@@ -73,16 +88,27 @@ textarea {
   width: 300px;
   border: 1px solid #4F4846;
 }
-/*
+
 textarea {
   vertical-align: top;
   height: 60px;
 }
-*/
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+}
+
 .text-center {
     text-align: center;
 }
 
 .text-right {
     text-align: right;
+}
+
+.text-space {
+    padding: 5px;
 }
