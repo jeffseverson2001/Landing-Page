@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background-color: mistyrose;
+    color: darkred;
+}
+
+header,
+footer {
+    height: 75px;
+    width: 100%;
+    line-height: 75px;
+    background-color:chocolate;
+}
+
+header {
+    position: fixed;
+    border-bottom: 5px dashed black;
+}
+
+footer {
+    position: absolute;
+    border-top: 5px dashed black;
+}
+
+h1 {
+    margin: 20px;
+}
+
+main {
+    padding: 100px 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
