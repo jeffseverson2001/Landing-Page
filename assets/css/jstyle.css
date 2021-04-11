@@ -21,20 +21,22 @@ footer {
 
 header {
     position: fixed;
-    border-bottom: 5px dashed black;
+    border-bottom: 5px dashed goldenrod;
 }
 
 footer {
     position: absolute;
-    border-top: 5px dashed black;
+    border-top: 5px dashed chartreuse;
+    color: hotpink;
 }
 
 h1 {
     margin: 20px;
+    font-size: 60px;
 }
 
 main {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 li {
@@ -46,7 +48,17 @@ li {
 
 a {
     text-decoration: none;
-    color: chartreuse;
+    color: mistyrose;
+}
+
+.pad-top {
+    margin-top: 30px;
+}
+
+#right-side-image {
+    position: relative;
+    margin-bottom: 75px; 
+    margin-left: 60px;
 }
 
 .text-center {
